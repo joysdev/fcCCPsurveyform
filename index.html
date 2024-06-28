@@ -10,10 +10,35 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">This is my short explanation of my survey form</p>
     <form id="survey-form">
-        <label for="name" id="name-label">Name</label><input id="name" type="text" placeholder="How you wish to be addressed" required>
+      <fieldset><label for="name" id="name-label">Name</label><input id="name" type="text" placeholder="How you wish to be addressed" required>
         <label for="email" id="email-label">Email</label><input id="email" type="email" placeholder="Where you want reminders to arrive" required>
-        <label for="number" id="number-label">Number of times/week you want reminders</label><input id="number" type="number" placeholder="Pick a number 1-7" required min="1" max="7">
+        <label for="number" id="number-label">Number of times/week you want reminders</label><input id="number" type="number" placeholder="Pick a # 1-7" required min="1" max="7">
+      </fieldset>
+      <fieldset> <label for="dropdown">This is a dropdown menu</label><select id="dropdown"><option value="">(select one)</option>
+            <option value="1">option 1</option>
+            <option value="2">option 2</option></select>
+      </fieldset>
+      <fieldset>
+        <legend>Choose the option that best describes why you're here</legend>
+        <label for="choice"><input id="choice" type="radio" name="account-type" class="inline" checked /> choice</label>
+        <label for="compulsion"><input id="compulsion" type="radio" name="account-type" class="inline" /> compulsion</label>
+      </fieldset>
+      <fieldset>
+        <label for="source">What brought you to me?
+          <select id="source" name="source">
+            <option value="">(select one)</option>
+            <option value="1">Rumors</option>
+            <option value="2">Fortune</option>
+            <option value="3">Prayers</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="additional-comments">Additional comments?
+          <textarea id="additional-comments" name="additional-comments" rows="3" cols="30" placeholder="This can be a suggestion box, a confessional, or anything you dream of!"></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
     </form>
-</body>
-
+  </body>
+</html>
 
