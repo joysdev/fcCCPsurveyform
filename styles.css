@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+  }
+  
+  #description {
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  
+  fieldset {
+    font-family: sans-serif;
+  
+  }
+  
+  input,
+  textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: 23%;
+    margin: 5px 0 5px 0;
+    vertical-align: middle;
+  }
+  
+  #source {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 15 auto 10 auto;
+    width: 55%;
+    
+  }
