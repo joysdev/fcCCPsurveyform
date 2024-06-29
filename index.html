@@ -7,16 +7,19 @@
     <title>Survey Form</title>
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">This is my short explanation of my survey form</p>
+    <h1 id="title">Congratulations-this is your opportunity to earn My attention!</h1>
+    <p id="description">Fill this out and attach it to your first donation.</p>
     <form id="survey-form">
-      <fieldset><label for="name" id="name-label">Name</label><input id="name" type="text" placeholder="How you wish to be addressed" required>
-        <label for="email" id="email-label">Email</label><input id="email" type="email" placeholder="Where you want reminders to arrive" required>
-        <label for="number" id="number-label">Number of times/week you want reminders</label><input id="number" type="number" placeholder="Pick a # 1-7" required min="1" max="7">
+      <fieldset><label for="name" id="name-label">Who do you think you are??</label><input id="name" type="text" placeholder="I'll call you whatever I want, but give me some ideas to start." required>
+        <label for="email" id="email-label">What is your email address?</label><input id="email" type="email" placeholder="Where can I count on you, and you alone, to receive My instructions?" required>
+        <label for="number" id="number-label">Number of times/week you will make deposits</label><input id="number" type="number" placeholder="Pick a # between 7 and 9999999999999999999999999999999999999999" required min="7" max="9999999999999999999999999999999999999999">
       </fieldset>
-      <fieldset> <label for="dropdown">This is a dropdown menu</label><select id="dropdown"><option value="">(select one)</option>
-            <option value="1">option 1</option>
-            <option value="2">option 2</option></select>
+      <fieldset> <label for="dropdown" class="dropdown" required>How did you find Me? </label>
+        <select id="dropdown"><option value="">(select one)</option>
+            <option value="">(select one)</option>
+            <option value="1">dumb luck</option>
+            <option value="2">prayers</option>
+          </select>
       </fieldset>
       <fieldset>
         <legend>Choose the option that best describes why you're here</legend>
@@ -24,17 +27,8 @@
         <label for="compulsion"><input id="compulsion" type="radio" name="account-type" class="inline" /> compulsion</label>
       </fieldset>
       <fieldset>
-        <label for="source">What brought you to me?
-          <select id="source" name="source">
-            <option value="">(select one)</option>
-            <option value="1">Rumors</option>
-            <option value="2">Fortune</option>
-            <option value="3">Prayers</option>
-            <option value="4">Other</option>
-          </select>
         </label>
-        <label for="additional-comments">Additional comments?
-          <textarea id="additional-comments" name="additional-comments" rows="10" cols="30" placeholder="This can be a suggestion box, a confessional, or anything you dream of!"></textarea>
+        <label for="additional-comments">Tell Me at least three things you can't afford for Me to share with anyone else:<textarea id="additional-comments" name="additional-comments" rows="10" cols="30" placeholder="Think of this as a way for you to demonstrate your intentions are serious. I will most likely use what you tell Me to make you hurt and/or pay Me more, in other words-for My own amusement!"></textarea>
         </label>
       </fieldset>
       <input type="submit" value="$UBMIT TO ME HENCEFORTH" />
