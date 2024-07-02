@@ -7,18 +7,19 @@
     <title>Survey Form</title>
 </head>
 <body>
-    <h1 id="title">Congratulations-this is your opportunity to earn My attention!</h1>
+    <h1 id="title">Congratulations-this is what you've been searching for!</h1>
     <p id="description">Fill this out and attach it to your first donation.</p>
     <form id="survey-form">
       <fieldset><label for="name" id="name-label">Who do you think you are??</label><input id="name" type="text" placeholder="I'll call you whatever I want, but give me some ideas to start." required>
-        <label for="email" id="email-label">What is your email address?</label><input id="email" type="email" placeholder="Where can I count on you, and you alone, to receive My instructions?" required>
+        <label for="email" id="email-label">What is your email address?</label><input id="email" type="email" placeholder="Where can I count on you, and you alone, to receive instructions?" required>
         <label for="number" id="number-label">Number of times/week you will make deposits</label><input id="number" type="number" placeholder="Pick a # between 7 and 9999999999999999999999999999999999999999" required min="7" max="9999999999999999999999999999999999999999">
       </fieldset>
-      <fieldset> <label for="dropdown" class="dropdown" required>How did you find Me? </label>
+      <fieldset> <label for="dropdown" class="dropdown" required>How did you find this? </label>
         <select id="dropdown"><option value="">(select one)</option>
             <option value="">(select one)</option>
-            <option value="1">dumb luck</option>
-            <option value="2">prayers</option>
+            <option value="1">just a hunch</option>
+            <option value="2">treasure map</option>
+            <option value="3">sheer tenacity</option>
           </select>
       </fieldset>
       <fieldset>
@@ -27,15 +28,16 @@
         <label for="compulsion"><input id="compulsion" type="radio" value="compulsion" name="account-type" class="inline" /> compulsion</label>
       </fieldset>
       <fieldset>
-    <label for="checkboxes" id="checkboxes" name="checkboxes">Select all that apply<br><br></label>
-        <label for="checkbox-1" id="checkbox-1"> <input class="inline" type="checkbox" id="checkbox" name="checkbox" value="checkbox-1">Checkbox 1</label>
-        <label for="checkbox-2" id="checkbox-2"> <input class="inline" type="checkbox" id="checkbox" name="checkbox" value="checkbox-2">Checkbox 2</label>
+    <label for="checkboxes" id="checkboxes" name="checkboxes">Select all that apply to your income style<br><br></label>
+        <label for="checkbox-1" id="checkbox-1"> <input class="inline" type="checkbox" id="checkbox" name="checkbox" value="checkbox-1">investment dividends</label>
+        <label for="checkbox-2" id="checkbox-2"> <input class="inline" type="checkbox" id="checkbox" name="checkbox" value="checkbox-2">hourly wages</label>
+        <label for="checkbox-3" id="checkbox-3"> <input class="inline" type="checkbox" id="checkbox" name="checkbox" value="checkbox-3">salary</label>
        </fieldset>
       <fieldset>
-        <label for="additional-comments">Tell Me at least three things you can't afford for Me to share with anyone else:<textarea id="additional-comments" name="additional-comments" rows="10" cols="30" placeholder="Think of this as a way for you to demonstrate your intentions are serious. I will most likely use what you tell Me to make you hurt and/or pay Me more, in other words-for My own amusement!"></textarea>
+        <label for="additional-comments">Additional comments:<textarea id="additional-comments" name="additional-comments" rows="10" cols="30" placeholder="Feel free to make a suggestion, tell a joke, confess, and/or..."></textarea>
         </label>
       </fieldset>
-      <input type="submit" id="submit" value="$UBMIT TO ME HENCEFORTH" />
+      <input type="submit" id="submit" value="$UBMIT" />
     </form>
   </body>
 </html>
